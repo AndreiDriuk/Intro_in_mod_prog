@@ -1,0 +1,2 @@
+D:\Intro_in_mod_prog\Examples\staticArray\x64\Debug\staticArray.exe
+D:\Intro_in_mod_prog\Examples\IntroInStaticArray\x64\Debug\IntroStaticArray.exe
