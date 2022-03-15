@@ -1,0 +1,7 @@
+﻿  IntroIn2DArray.cpp
+D:\Intro_in_mod_prog\Examples\IntroIn2DArray\IntroIn2DArray.cpp(10,15): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+D:\Intro_in_mod_prog\Examples\IntroIn2DArray\IntroIn2DArray.cpp(33,57): warning C4311: reinterpret_cast: усечение указателя из "int *" в "int"
+D:\Intro_in_mod_prog\Examples\IntroIn2DArray\IntroIn2DArray.cpp(33,57): warning C4302: reinterpret_cast: усечение из "int *" к "int"
+D:\Intro_in_mod_prog\Examples\IntroIn2DArray\IntroIn2DArray.cpp(33,87): warning C4311: reinterpret_cast: усечение указателя из "int *" в "int"
+D:\Intro_in_mod_prog\Examples\IntroIn2DArray\IntroIn2DArray.cpp(33,87): warning C4302: reinterpret_cast: усечение из "int *" к "int"
+  IntroIn2DArray.vcxproj -> D:\Intro_in_mod_prog\Examples\IntroIn2DArray\x64\Debug\IntroIn2DArray.exe

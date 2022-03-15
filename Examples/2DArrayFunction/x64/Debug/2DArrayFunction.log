@@ -1,0 +1,3 @@
+﻿  2DArrayFunction.cpp
+D:\Intro_in_mod_prog\Examples\2DArrayFunction\2DArrayFunction.cpp(28,15): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+  2DArrayFunction.vcxproj -> D:\Intro_in_mod_prog\Examples\2DArrayFunction\x64\Debug\2DArrayFunction.exe

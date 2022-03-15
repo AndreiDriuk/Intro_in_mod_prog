@@ -1,0 +1,2 @@
+D:\Intro_in_mod_prog\2DArrayFunction\x64\Debug\2DArrayFunction.exe
+D:\Intro_in_mod_prog\Examples\2DArrayFunction\x64\Debug\2DArrayFunction.exe

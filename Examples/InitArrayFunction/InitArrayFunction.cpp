@@ -4,27 +4,38 @@
 #include <iostream>
 #include <ctime>
 using namespace std;
-const int SIZE = 5;
-void fillArray(double array[SIZE]);
-void printArray(double array[SIZE]);
+
+void fillArray(double array[], const int size);
+//void fillArray(double *array, const int size);
+void printArray(double array[], const int size);
 
 int main()
 {
+    const int SIZE = 20;
     srand(time(NULL));
     double myArray[SIZE];
-    fillArray(myArray);
-    printArray(myArray);
+    fillArray(myArray, SIZE);
+    printArray(myArray, SIZE);
 }
 
-void fillArray(double array[SIZE]) {
+void fillArray(double array[], const int size) {
 
-    for (int i = 0; i < SIZE; ++i) {
+    for (int i = 0; i < size; ++i) {
         array[i] = 1.0*rand()/RAND_MAX;
     }
 
 }
-void printArray(double array[SIZE]) {
-    for (int i = 0; i < SIZE; ++i) {
+
+/*void fillArray(double* array, const int size) {
+
+    for (int i = 0; i < size; ++i) {
+        array[i] = 1.0 * rand() / RAND_MAX;
+    }
+
+}*/
+
+void printArray(double array[], const int size) {
+    for (int i = 0; i < size; ++i) {
         cout << array[i] << endl;
     }
 

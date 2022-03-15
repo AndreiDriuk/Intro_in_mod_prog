@@ -1,0 +1,3 @@
+﻿  IntroInDynamicArray.cpp
+D:\Intro_in_mod_prog\IntroInDynamicArray\IntroInDynamicArray.cpp(20,15): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+  IntroInDynamicArray.vcxproj -> D:\Intro_in_mod_prog\IntroInDynamicArray\x64\Debug\IntroInDynamicArray.exe
