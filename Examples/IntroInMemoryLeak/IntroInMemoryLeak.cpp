@@ -1,36 +1,14 @@
-﻿// IntroInNewDelete.cpp : Этот файл содержит функцию "main". Здесь начинается и заканчивается выполнение программы.
+﻿// IntroInMemoryLeak.cpp : Этот файл содержит функцию "main". Здесь начинается и заканчивается выполнение программы.
 //
 
 #include <iostream>
-using namespace std;
 
 int main()
 {
-    // создаем вне нашей программы переменную int
-    // new возвращает указатель на адрес переменной
-    int* px = new int(5);
-    cout << "px = " << px << endl;
-    cout <<"*px = " << *px << endl;
-    delete px;
-
-    // создаем вне нашей программы массив на 10 элементов
-    // new возвращает указатель на адрес переменной
-    cout << 5 << endl;
-    int size = 5;
-    int* myArray = new int[size];
-    cout << "myArray = " << myArray << endl;
-    for (int i = 0; i < size; ++i) {
-        cout << "myArray[" << i << "] = " << myArray[i] << endl;
+    for (int i = 0; i < 10000000; ++i) {
+        bool* t = new bool(true);
     }
-    delete[] myArray;
 
-    //Утечка памяти, открыть диспетчер задач!
-    for (int i = 0; i < size*15000000; ++i) {
-        char* myArray1 = new char;
-        //delete myArray1;
-    }
-   
-    
 }
 
 // Запуск программы: CTRL+F5 или меню "Отладка" > "Запуск без отладки"
